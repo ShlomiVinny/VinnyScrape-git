@@ -1,0 +1,15 @@
+{
+    "type": "module",
+    "name": "users",
+    "version": "1.0.0",
+    "description": "users service lambda function",
+    "main": "users.mjs",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Shlomo 'Vinny' Yagolnitser",
+    "license": "ISC",
+    "dependencies": {
+        "aws-sdk": "^2.1181.0"
+    }
+}

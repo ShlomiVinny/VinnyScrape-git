@@ -1,0 +1,17 @@
+{
+    "name": "lambda-puppeteer",
+    "version": "1.0.0",
+    "description": "Puppeteer scraper for use with a AWS lambda function",
+    "license": "Apache-2.0",
+    "author": {
+        "name": "Vinny",
+        "url": "https://www.no-website.no",
+        "organization": false
+    },
+    "scripts": {},
+    "dependencies": {
+        "aws-sdk": "^2.1162.0",
+        "mongodb": "^4.7.0",
+        "puppeteer": "^15.4.0"
+    }
+}

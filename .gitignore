@@ -1,0 +1,12 @@
+/node_modules
+/.terraform
+/react/build
+/*/node_modules
+/*/*/node_modules
+/*/*/*/node_modules
+/*/*/*/*/node_modules
+/*/*.zip
+/*/outputs.json
+/*/*/outputs.json
+/*/*/*/outputs.json
+/*/*/*/*/outputs.json

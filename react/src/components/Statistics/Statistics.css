@@ -1,0 +1,94 @@
+.statistics-wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(45deg, rgb(65, 88, 208), rgb(200, 80, 192));
+}
+
+.statistics {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 80%;
+    max-height: 85vh;
+}
+
+.statistics-card {
+    background-color: #bababb;
+    width: 15rem;
+    height: 18rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 3px;
+    font-size: larger;
+    border-radius: 2rem;
+    margin: 1rem;
+    box-shadow: gray 0px 0px 10px;
+    transition: 0.8s;
+}
+
+.statistics-card:hover {
+    transform: scale(1.1);
+    box-shadow: rgb(196, 196, 196) 0px 0px 20px;
+}
+
+#h1-header {
+    color: black;
+}
+
+#h3-header {
+    color: black;
+}
+
+.header-span {
+    margin: 0 8px 8px 18px;
+    align-self: flex-start;
+    text-align: right;
+    letter-spacing: 0;
+    font-size: medium;
+}
+
+.value-span {
+    margin-left: 1rem;
+    letter-spacing: 0;
+}
+
+.times {
+    margin-top: 1rem;
+    font-weight: 600;
+    transition: 0.4s;
+}
+
+.times:hover {
+    transform: scale(1.1);
+    cursor: help;
+}
+
+.number {
+    font-weight: 900;
+    font-size: larger;
+}
+
+.loading-msg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 18rem;
+    height: 10rem;
+    margin: auto;
+    padding: 1rem;
+    font-size: 2rem;
+    font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    overflow-wrap: break-word;
+}

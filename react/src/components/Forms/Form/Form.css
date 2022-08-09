@@ -1,0 +1,75 @@
+.form {
+    max-width: 80vw;
+    min-width: 50vw;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.form-label {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2vh;
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    margin-top: 0.5rem;
+}
+
+.check-label {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2vh;
+    display: block;
+    width: 100%;
+    margin-top: 0.5rem;
+}
+
+.check-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.label-input {
+    align-self: center;
+    margin-left: auto;
+    max-width: 90%;
+    min-width: 70%;
+}
+
+.check-input {
+    margin-left: 0;
+    margin-right: auto;
+    width: 2vw;
+}
+
+.invoiceStatusPaid {
+    margin-right: 2vw;
+}
+
+.table-fieldset {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2vh;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 1vh;
+}
+
+#submit {
+    width: 12rem;
+    color: rgb(255, 255, 255);
+}
+
+.field-btn {
+    margin-left: 1vw;
+    margin-right: 1vw;
+    margin-top: 0;
+}
+
+.seperator {
+    color: blueviolet;
+    margin: 0.5rem;
+}

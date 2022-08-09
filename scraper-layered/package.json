@@ -1,0 +1,17 @@
+{
+    "name": "scraper-layered",
+    "version": "1.0.0",
+    "description": "Puppeteer scraper for use with a AWS lambda function",
+    "license": "Apache-2.0",
+    "author": {
+        "name": "Vinny",
+        "url": "https://www.no-website.no",
+        "organization": false
+    },
+    "scripts": {},
+    "dependencies": {
+        "mongodb": "^4.8.0",
+        "@sparticuz/chrome-aws-lambda": "^14.4.1",
+        "aws-sdk": "^2.1175.0"
+    }
+}

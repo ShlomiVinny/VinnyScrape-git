@@ -1,0 +1,55 @@
+.screenshots-wrapper {
+    font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;
+    text-align: center;
+    color: #777;
+    font-weight: 300;
+}
+
+.invoice-box {
+    max-width: 800px;
+    margin: auto;
+    padding: 1rem;
+    border: 1px solid #eee;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    font-size: 1rem;
+    line-height: 1rem;
+    font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;
+    color: #555;
+    overflow-wrap: break-word;
+}
+
+.screenshot-container {
+    box-shadow: #000 0px 0px 1rem;
+    margin-bottom: 2rem;
+    transition: 0.4s;
+}
+
+.screenshot-container:hover {
+    transition: 0.4s;
+    box-shadow: rgb(123, 43, 214) 0 0 2rem;
+}
+
+.screenshot-header {
+    color: blue;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: large;
+}
+
+.screenshot-link {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    text-decoration: none;
+    padding: 0.1rem 1rem 0.1rem 1rem;
+    font-weight: 400;
+}
+
+.screenshot {
+    width: fit-content;
+}
+
+.delete-all {
+    width: 16rem;
+}
+
+h5 {
+    color: #000;
+}

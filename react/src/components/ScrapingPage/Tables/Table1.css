@@ -1,0 +1,176 @@
+.limiter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    z-index: 100;
+}
+
+.container-table100 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 33px 30px;
+    background: linear-gradient(45deg, rgb(65, 88, 208), rgb(200, 80, 192));
+}
+
+.wrap-table100 {
+    min-width: 90vw;
+}
+
+.table1 {
+    border-collapse: collapse;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    overflow: hidden;
+    width: 100%;
+    margin: 0px auto;
+    position: relative;
+}
+
+.table1 .thead1 .table-tr {
+    height: 4rem;
+    background: #6133aa;
+}
+
+.table1 .thead1 {
+    text-align: center;
+    border-bottom: gray 1px solid;
+}
+
+.table1 .tbody .table-tr {
+    height: 3rem;
+}
+
+.table100-head {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.table-th {
+    color: rgb(88, 46, 46);
+    flex: 2;
+    text-align: center;
+}
+
+.td {
+    text-align: center;
+}
+
+.table-th.column7 {
+    flex: 1;
+}
+
+.table-th.column5 {
+    flex: 1;
+}
+
+.table-th.column4 {
+    flex: 1;
+}
+
+.table-th.column2 {
+    flex: 1;
+}
+
+.tbody .table-tr:nth-child(2n) {
+    background-color: rgb(233, 223, 255);
+}
+
+.table-tr:nth-child(2n):hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(209, 208, 153);
+    cursor: pointer;
+}
+
+.tbody .table-tr {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 1rem;
+    color: rgb(88, 88, 88);
+    line-height: 1.2;
+    font-weight: unset;
+}
+
+.table-tr:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(209, 208, 153);
+    cursor: pointer;
+}
+
+.column1 {
+    flex: 2;
+    font-weight: 600;
+}
+
+.column2 {
+    flex: 1;
+    font-weight: 600;
+}
+
+.column3 {
+    flex: 2;
+    font-weight: 600;
+}
+
+.column4 {
+    flex: 1;
+    font-weight: 600;
+}
+
+.column5 {
+    flex: 1;
+    font-weight: 600;
+}
+
+.column6 {
+    flex: 2;
+    font-weight: 600;
+}
+
+.column7 {
+    flex: 1;
+    font-weight: 600;
+}
+
+.table-tr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.checktable-checkbox {
+    position: absolute;
+    top: 4rem;
+    left: 1rem;
+    font-size: 1rem;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkbox {
+    margin-left: 1vw;
+    height: 2vh;
+    width: 2vw;
+    z-index: 55;
+}
+
+.scraper-checkbox {
+    position: fixed;
+    top: 6rem;
+    left: 1rem;
+    font-size: 1rem;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 55;
+}
