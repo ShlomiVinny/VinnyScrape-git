@@ -53,8 +53,6 @@ After running `./automate` twice, you should have all the cloud resources up and
 
 #
 
-***Currently working endpoint: https://d8ev7ren9xjon.cloudfront.net***
-
 **Added a bunch of stuff, will update everything later.**
 
 All rights reserved to Vinny for being awesome!
